@@ -1,0 +1,52 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#checkOutButton {
+    float: right;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: rgb(51, 211, 19);
+    border-color: rgb(51, 211, 19);
+    box-shadow: 5px 10px 5px #888888;
+}
+
+.addButton {
+    background-color: rgb(30, 209, 30);
+    border-color: rgb(30, 209, 30);
+}
+
+.removeButton {
+    background-color: rgb(209, 30, 30);
+    border-color: rgb(209, 30, 30);
+    color: white;
+}
+
+#containTotal {
+    display: none;
+    place-items: center;
+}
+
+#total {
+    display: grid;
+    place-items: center;
+    border: 2px dashed rgba(172, 172, 172, 0.966);
+    padding: 20px;
+}
+
+.itemSpan {
+    display: inline-block;
+    width: 150px;
+}
